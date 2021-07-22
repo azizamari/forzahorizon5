@@ -38,6 +38,7 @@ header{
     padding:8px 20px;
 }
 .nav_links li a, .fa-shopping-cart, .name{
+    font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -105,6 +106,10 @@ header{
     color:#A4D90F;
     font-weight: 700;
     text-align:center;
+    cursor: pointer;
+}
+.card > .bottom > .sub:hover{
+    color:#fff;
 }
 .game_pass{
     color: white;
@@ -115,6 +120,10 @@ header{
 }
 .game_pass .pass_bold{
     font-weight: 700;
+}
+.xbox_logo{
+    width:30px;
+    margin-right: 5px;
 }
 
 .card > .preorder{
