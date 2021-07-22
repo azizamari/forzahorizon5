@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+	/* background-position: center; */
+    /* height: 2500px; */
+	background-size: cover;
+	background-attachment: scroll;
+    width: 100%;
+}
