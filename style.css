@@ -36,10 +36,11 @@ header{
     display:inline-block;
     padding:8px 20px;
 }
-.nav_links li a{
+.nav_links li a, .fa-shopping-cart, .name{
+    cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-.nav_links li a:hover{
+.nav_links li a:hover, .fa-shopping-cart:hover, .name:hover{
     color:#E92A97;
 }
 .avatar{
