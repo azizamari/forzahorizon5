@@ -7,24 +7,22 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(assets/background.jpg);
+    background-image: url(assets/background1.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-	/* background-position: center; */
-    /* height: 2500px; */
-	background-size: cover;
-	background-attachment: scroll;
-    width: 100%;
+    background-size: cover;
+    height: 100vh;
 }
-header li, header a, header button, .side pre, .side{
+header li, header a, header button, .side p, .side{
     font-family: 'Lato', sans-serif;
     color:#FFFFFF;
     text-decoration: none;
 }
 header{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     align-items:center;
-    padding:30px 10%;
+    padding:30px 0;
 }
 .logo{
     cursor: pointer;
@@ -35,7 +33,7 @@ header{
 }
 .nav_links li{
     display:inline-block;
-    padding:8px 20px;
+    padding:8px 15px;
 }
 .nav_links li a, .fa-shopping-cart, .name{
     font-size: 1rem;
@@ -65,10 +63,10 @@ header{
 .hero{
     display:flex;
     justify-content:space-around;
-    padding-top: 20px;
+    padding-top: 50px;
 
 }
-.hero pre{
+.hero p{
     flex: 0.5;
     align-self: flex-end;
     color:white;
@@ -77,7 +75,7 @@ header{
     font-size:0.8rem;
 }
 .card{
-    height:550px;
+    height:520px;
     width:350px;
     border-radius:20px;
     background-color:rgba(0,0,0,0.65);
