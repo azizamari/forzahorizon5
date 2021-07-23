@@ -26,6 +26,8 @@ header{
 }
 .logo{
     cursor: pointer;
+    width:250px;
+    height:auto;
 }
 .hamburger{
     width:60px;
@@ -80,7 +82,7 @@ header{
 }
 
 .side-nav a{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding:20px 10px 10px 40px;
     text-decoration: none;
     cursor: pointer;
@@ -106,7 +108,7 @@ header{
 
 }
 .hero p{
-    flex: 0.5;
+    flex: 0.7;
     align-self: flex-end;
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -117,7 +119,7 @@ header{
     height:520px;
     width:350px;
     border-radius:20px;
-    background-color:rgba(0,0,0,0.65);
+    background-color:rgba(0,0,0,0.35);
     font-family: 'Open Sans', sans-serif;
     display:flex;
     flex-direction:column;
@@ -189,5 +191,45 @@ header{
     }
     .open-slide{
         display: block;
+    }
+}
+
+@media (max-width:762px){
+    .side{
+        display:none;
+    }
+    .logo{
+        width:190px;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content:space-around;
+        padding-top: 0;
+    }
+    .card{
+        padding:0;
+        height:320px;
+        width:290px;
+    }
+    .hero p{
+        font-size:0.5rem;
+        align-self:center;
+        margin-top: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .card > .top > h3{
+        font-size:1.5rem;
+    }
+
+    .card > .top > h4{
+        color:white;
+        font-size:0.9rem;
+        text-align:center;
+    }
+    .card > .bottom > .sub{
+        font-size:0.8rem;
     }
 }
