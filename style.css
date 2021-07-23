@@ -49,7 +49,7 @@ header{
     transition: all 0.3s ease 0s;
 }
 .nav_links li a:hover, .fa-shopping-cart:hover, .name:hover{
-    color:#E92A97;
+    color:#EF5477;
 }
 .avatar{
     vertical-align: middle;
@@ -90,7 +90,7 @@ header{
     transition: all 0.3s ease 0s;
 }
 .side-nav a:hover{
-    color:#E92A97;
+    color:#EF5477;
 }
 
 .side-nav .btn-close{
@@ -231,5 +231,8 @@ header{
     }
     .card > .bottom > .sub{
         font-size:0.8rem;
+    }
+    body{
+        height: 120vh;
     }
 }
