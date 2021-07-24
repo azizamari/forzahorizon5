@@ -6,13 +6,6 @@
     margin:0;
     box-sizing: border-box;
 }
-body{
-    background-image: url(assets/background1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
 header li, header a, header button, .side p, .side{
     font-family: 'Lato', sans-serif;
     color:#FFFFFF;
@@ -23,6 +16,8 @@ header{
     justify-content:space-evenly;
     align-items:center;
     padding:30px 0;
+    position: absolute;
+    width: 100%;
 }
 .logo{
     cursor: pointer;
@@ -104,8 +99,14 @@ header{
 .hero{
     display:flex;
     justify-content:space-around;
-    padding-top: 50px;
-
+    padding-top: 175px;
+    background-image: url(assets/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    align-self: center;
+    height: 100vh;
 }
 .hero p{
     flex: 0.7;
@@ -114,6 +115,7 @@ header{
     font-family: 'Open Sans', sans-serif;
     font-weight:700;
     font-size:0.8rem;
+    padding-bottom: 75px;
 }
 .card{
     height:520px;
@@ -205,7 +207,8 @@ header{
         flex-direction: column-reverse;
         align-items:center;
         justify-content:space-around;
-        padding-top: 0;
+        padding-top: 100px;
+        height: 120vh;
     }
     .card{
         padding:0;
@@ -231,8 +234,5 @@ header{
     }
     .card > .bottom > .sub{
         font-size:0.8rem;
-    }
-    body{
-        height: 120vh;
     }
 }
