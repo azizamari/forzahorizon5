@@ -187,6 +187,17 @@ header{
     border-radius:0px;
 }
 
+
+
+.lineBreak{
+    width: 100%;
+    height:6vh;
+    background: rgb(236,34,162);
+    background: linear-gradient(85deg, rgba(236,34,162,1) 0%, rgba(255,99,30,1) 100%);
+}
+
+
+
 @media (max-width:962px){
     nav{
         display:none;
@@ -218,9 +229,10 @@ header{
     .hero p{
         font-size:0.5rem;
         align-self:center;
-        margin-top: 70px;
+        margin-top: 10px;
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 10px;
     }
     
     .card > .top > h3{
