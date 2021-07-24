@@ -198,6 +198,17 @@ header{
 
 
 
+
+
+.showcase{
+    background-image: url(assets/background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
 @media (max-width:962px){
     nav{
         display:none;
