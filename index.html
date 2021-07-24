@@ -87,8 +87,12 @@
                   <div class="swiper-slide">
                     <img src="assets/show3.jpg" />
                   </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
-              </div>
+            </div>
 
 
         </section>
@@ -103,6 +107,10 @@
           initialSlide : 1,
           centeredSlides: true,
           slidesPerView: 1.4,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
           coverflowEffect: {
             rotate: 50,
             stretch: 0,
